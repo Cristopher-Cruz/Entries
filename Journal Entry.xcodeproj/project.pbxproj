@@ -14,6 +14,7 @@
 		E379DA8529EDE97700C7FFCA /* Journal_Entry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E379DA8329EDE97700C7FFCA /* Journal_Entry.xcdatamodeld */; };
 		E379DA8729EDE97A00C7FFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E379DA8629EDE97A00C7FFCA /* Assets.xcassets */; };
 		E379DA8A29EDE97A00C7FFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E379DA8829EDE97A00C7FFCA /* LaunchScreen.storyboard */; };
+		E384C33729EE0D9D00ED4990 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384C33629EE0D9D00ED4990 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E379DA8629EDE97A00C7FFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E379DA8929EDE97A00C7FFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E379DA8B29EDE97A00C7FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E384C33629EE0D9D00ED4990 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E379DA8829EDE97A00C7FFCA /* LaunchScreen.storyboard */,
 				E379DA8B29EDE97A00C7FFCA /* Info.plist */,
 				E379DA8329EDE97700C7FFCA /* Journal_Entry.xcdatamodeld */,
+				E384C33629EE0D9D00ED4990 /* Entry.swift */,
 			);
 			path = "Journal Entry";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E384C33729EE0D9D00ED4990 /* Entry.swift in Sources */,
 				E379DA7F29EDE97700C7FFCA /* ViewController.swift in Sources */,
 				E379DA7B29EDE97700C7FFCA /* AppDelegate.swift in Sources */,
 				E379DA8529EDE97700C7FFCA /* Journal_Entry.xcdatamodeld in Sources */,
